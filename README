@@ -1,0 +1,48 @@
+QSGL
+====
+Educational program to teach about transformation matrixes and operations based on SGL.
+
+I. Introduction
+II. Dependencies
+III. Installation
+IV. License
+V. Author
+
+==============================
+
+I. Introduction
+
+QSGL is a tool for teaching about transformation matrixes and operations without the need to setup an OpenGL scene to try examples out. It is intented as an educational tool for basic Computer Graphics courses and is based on the SGL Program used at the IMPA (http://www.impa.br). QSGL has a strong focus on documentation and internationalization. Any comments, questions or contributions can be sent to the author (see the Author section).
+
+------------------------------
+
+II. Dependencies
+
+QSGL is based on the Qt Framework, specifically on these modules:
+
+     - QtGui
+     - QtCore
+     - QtOpenGL
+     - QtWebKit
+     - QtScript
+
+It should compile in any plattform that has a port of the Qt library and these modules.
+
+------------------------------
+
+III. Installation
+
+     - Download and extract sources.
+     - Run qmake on the main directory (QSGL) to generate appropiate Makefiles for your platform.
+     - Run make to generate the binary which will be generated on the main directory (QSGL).
+     - Run the created binary.
+
+------------------------------
+
+IV. License
+
+------------------------------
+
+V. Author
+
+This software was created by David E. Narvaez (david.narvaez@computer.org)
