@@ -78,7 +78,7 @@
       <item>
        <widget class="QLabel" name="outputLabel">
         <property name="text">
-         <string>TextLabel</string>
+         <string>Output:</string>
         </property>
        </widget>
       </item>

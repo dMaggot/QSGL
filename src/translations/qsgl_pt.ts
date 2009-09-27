@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="pt_BR" sourcelanguage="en_US">
 <context>
     <name>QSGLAboutDialog</name>
     <message>
@@ -25,12 +25,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="58"/>
         <source>line</source>
-        <translation type="unfinished"></translation>
+        <translation>linha</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="59"/>
         <source>rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>retangulo</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="60"/>

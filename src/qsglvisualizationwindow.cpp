@@ -2,8 +2,8 @@
 
 #include <cmath>
 
-#include <QtCore/QString>
-#include <QtCore/QByteArray>
+#include <QString>
+#include <QByteArray>
 #include <QVector>
 #include <QStringList>
 #include <QDebug>
@@ -313,10 +313,10 @@ void QSGLVisualizationWindow::print(QString toPrint)
 
 void QSGLVisualizationWindow::printTransformationMatrix()
 {
-    GLdouble transformationMatrix[16];
+    GLfloat transformationMatrix[16];
     QString output("Transformation Matrix\n|%1\t%5\t%9\t%13|\n|%2\t%6\t%10\t%14|\n|%3\t%7\t%11\t%15|\n|%4\t%8\t%12\t%16|\n-------\n");
 
-    glGetDoublev(GL_MODELVIEW_MATRIX, transformationMatrix);
+    glGetFloatv(GL_MODELVIEW_MATRIX, transformationMatrix);
 
     for(int i=0; i<16; i++)
         output = output.arg(transformationMatrix[i]);
@@ -328,10 +328,10 @@ void QSGLVisualizationWindow::printTransformationMatrix()
 
 void QSGLVisualizationWindow::printProjectionMatrix()
 {
-    GLdouble projectionMatrix[16];
+    GLfloat projectionMatrix[16];
     QString output("Transformation Matrix\n|%1\t%5\t%9\t%13|\n|%2\t%6\t%10\t%14|\n|%3\t%7\t%11\t%15|\n|%4\t%8\t%12\t%16|\n-------\n");
 
-    glGetDoublev(GL_PROJECTION_MATRIX, projectionMatrix);
+    glGetFloatv(GL_PROJECTION_MATRIX, projectionMatrix);
 
     for(int i=0; i<16; i++)
         output = output.arg(projectionMatrix[i]);

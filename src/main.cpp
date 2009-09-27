@@ -1,4 +1,4 @@
-#include <QtGui/QApplication>
+#include <QApplication>
 #include "qsglwindow.h"
 
 int main(int argc, char *argv[])

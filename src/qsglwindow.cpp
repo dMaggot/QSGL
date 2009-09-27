@@ -2,7 +2,7 @@
 #include "ui_qsglwindow.h"
 #include "ui_qsglaboutdialog.h"
 
-#include <QtCore/QUrl>
+#include <QUrl>
 #include <QFile>
 #include <QDir>
 #include <QPixmap>
@@ -139,10 +139,8 @@ void QSGLWindow::on_actionExport_triggered()
 
     QPixmap image = ui->imageWindow->renderPixmap();
 
-    if(image.save(exportFileName))
-        qDebug("saved");
-    else
-        qDebug("not saved");
+    if(!image.save(exportFileName))
+        QMessageBox(QMessageBox::Warning, tr("Error Exporting Image"),QString(tr("Cannot open file %1")).arg(exportFileName));
 
     return;
 }

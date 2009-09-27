@@ -2,9 +2,6 @@
 #define QSGLVISUALIZATIONWINDOW_H
 
 #include <QGLWidget>
-#include <QtGui/QTextEdit>
-#include <QtCore/QSize>
-
 #include <QScriptEngine>
 
 class QSGLVisualizationWindow : public QGLWidget

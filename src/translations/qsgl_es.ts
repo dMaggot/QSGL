@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="es_PA" sourcelanguage="en_US">
 <context>
     <name>QSGLAboutDialog</name>
     <message>
         <location filename="../qsglaboutdialog.ui" line="17"/>
         <source>About SGL</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca de SGL</translation>
     </message>
     <message>
         <location filename="../qsglaboutdialog.ui" line="28"/>
@@ -25,37 +25,37 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="58"/>
         <source>line</source>
-        <translation type="unfinished"></translation>
+        <translation>linea</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="59"/>
         <source>rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>rectangulo</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="60"/>
         <source>rectangleFilled</source>
-        <translation type="unfinished"></translation>
+        <translation>rectanguloRelleno</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="61"/>
         <source>polygon</source>
-        <translation type="unfinished"></translation>
+        <translation>poligono</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="62"/>
         <source>filledPolygon</source>
-        <translation type="unfinished"></translation>
+        <translation>poligonoRelleno</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="63"/>
         <source>circle</source>
-        <translation type="unfinished"></translation>
+        <translation>circulo</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="64"/>
         <source>circleFilled</source>
-        <translation type="unfinished"></translation>
+        <translation>circuloRelleno</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="66"/>
@@ -65,37 +65,37 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="67"/>
         <source>scale</source>
-        <translation type="unfinished"></translation>
+        <translation>escalar</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="68"/>
         <source>rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>rotar</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="70"/>
         <source>color</source>
-        <translation type="unfinished"></translation>
+        <translation>color</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="72"/>
         <source>window</source>
-        <translation type="unfinished"></translation>
+        <translation>ventana</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="73"/>
         <source>viewport</source>
-        <translation type="unfinished"></translation>
+        <translation>puertoDeVista</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="75"/>
         <source>print</source>
-        <translation type="unfinished"></translation>
+        <translation>imprimir</translation>
     </message>
     <message>
         <location filename="../qsglvisualizationwindow.cpp" line="76"/>
         <source>printTransformationMatrix</source>
-        <translation type="unfinished"></translation>
+        <translation>imprimirMatrizTransformacion</translation>
     </message>
 </context>
 <context>
@@ -103,22 +103,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglwindow.cpp" line="45"/>
         <source>Error Opening File</source>
-        <translation type="unfinished"></translation>
+        <translation>Error Abriendo Archivo</translation>
     </message>
     <message>
         <location filename="../qsglwindow.cpp" line="45"/>
         <source>Cannot open file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No se puede abrir archivo %1</translation>
     </message>
     <message>
         <location filename="../qsglwindow.cpp" line="77"/>
         <source>Error Saving File</source>
-        <translation type="unfinished"></translation>
+        <translation>Error Salvando Archivo</translation>
     </message>
     <message>
         <location filename="../qsglwindow.cpp" line="77"/>
         <source>Cannot save file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>No se pudo salvar el archivo %1</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="14"/>
@@ -128,12 +128,12 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglwindow.ui" line="23"/>
         <source>Image:</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagen:</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="33"/>
         <source>Documentation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Documentación:</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="41"/>
@@ -143,17 +143,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglwindow.ui" line="53"/>
         <source>Commands:</source>
-        <translation type="unfinished"></translation>
+        <translation>Comandos:</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="65"/>
         <source>Draw</source>
-        <translation type="unfinished"></translation>
+        <translation>Dibujar</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="72"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Limpiar</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="81"/>
@@ -163,42 +163,42 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglwindow.ui" line="103"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Archivo</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="116"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Ayuda</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="136"/>
         <source>&amp;Open...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abrir...</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="141"/>
         <source>&amp;Save...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salvar...</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="146"/>
         <source>Save &amp;As...</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvar &amp;Como...</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="151"/>
         <source>E&amp;xport...</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xportar...</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="156"/>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa&amp;lir</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="161"/>
         <source>&amp;Documentation...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Documentación...</translation>
     </message>
     <message>
         <location filename="../qsglwindow.ui" line="166"/>
@@ -208,7 +208,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../qsglwindow.ui" line="171"/>
         <source>&amp;New</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nuevo</translation>
     </message>
 </context>
 </TS>
